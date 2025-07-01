@@ -1,7 +1,16 @@
 object_type: global_settings
 overrides:
-    "query.includeComments.general.userId": true 
-    "query.includeComments.general.queryId": true
-    "xmla.auth.token.enabled": true
-    "xmla.cube.lastDataUpdate.enabled": true
+    "aggregates.create.partition.hintedAggregate.enabled" : True
+    "soap.xpress.enabled" : True
+    "query.language.mdx.dimquery.result.limit" : 50
+    "xmla.auth.token.enabled" : True
     "xmla.discover.properties.daxdialect": tabular
+    "xmla.cube.lastDataUpdate.enabled": True
+manually_added_hidden_overrides:
+    "query.includeComments.general.queryId" : True
+    "query.includeComments.general.userId" : True
+    "aggregates.create.enabled" : True
+    "connection.pool.minIdleConnections" : 0
+    "connection.pool.user.minIdleConnections" : 0
+    "aggregates.configuration.maximum_concurrent_materializations" : 8
+    "aggregates.tableCache.enabled" : True
