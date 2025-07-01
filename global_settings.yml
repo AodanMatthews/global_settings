@@ -1,9 +1,7 @@
 object_type: global_settings
 overrides:
-    "aggregates.configuration.maximum_concurrent_materializations": 10
     "query.includeComments.general.userId": true 
     "query.includeComments.general.queryId": true
-
     "xmla.auth.token.enabled": true
     "xmla.cube.lastDataUpdate.enabled": true
     "xmla.discover.properties.daxdialect": tabular
