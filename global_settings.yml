@@ -4,7 +4,7 @@ overrides:
     "soap.xpress.enabled" : True
     "query.language.mdx.dimquery.result.limit" : 50
     "xmla.auth.token.enabled" : True
-    "xmla.discover.properties.daxdialect": tabular
+    "xmla.discover.properties.daxdialect": tabular1600
     "xmla.cube.lastDataUpdate.enabled": True
 manually_added_hidden_overrides:
     "query.includeComments.general.queryId" : True
