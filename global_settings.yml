@@ -16,9 +16,3 @@ manually_added_hidden_overrides:
     "connection.pool.user.minIdleConnections" : 0
     "aggregates.configuration.maximum_concurrent_materializations" : 8
     "aggregates.tableCache.enabled" : True
-
-sml.environment.variables:
-    CONNECTION="Snowflake"
-    DB_NAME="AWAZE_CONTAINER_MIGRATION"
-    DB_SCHEMA="DIM"
-
